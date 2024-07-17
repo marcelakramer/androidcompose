@@ -45,7 +45,7 @@ fun ArticleAboutCompose() {
 
 @Composable
 private fun Card() {
-    Column(modifier = modifier.fillMaxSize()) {
+    Column(modifier = Modifier.fillMaxSize()) {
         Image(painter = painterResource(R.drawable.bg_compose_background), contentDescription = null)
         Text(
             text = stringResource(R.string.title),
